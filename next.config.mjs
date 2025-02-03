@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+// frontend/next.config.js
+export const experimental = {
+  appDir: true, // Only enable App Router
+};
